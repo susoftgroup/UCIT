@@ -34,8 +34,7 @@ Here are the rules about preparing input files.
 
 * Number of entities must be given in the first line of the file in the exact same format with samples, e.g., `# NUMBER_OF_ENTITIES:10`
 * System constraints must be given between the `# SYSTEM_CONSTRAINTS_BEGIN` and `# SYSTEM_CONSTRAINTS_END` tags. No entities can be given before closing tag of system constraints. 
-* Even if no system constraint exists, the opening and closing tag should be present in the input file.
-* Each entity must be given between `# ENTITY_BEGIN` and `# ENTITY_END" tags`
+* Each entity must be given between `# ENTITY_BEGIN` and `# ENTITY_END` tags
 * Each entity should have a unique entity id with the tag `# ENTITY_ID`, otherwise the result may produce incorrect results.
 * Any line between opening and closing tag of an entity which starts without "#" symbol is considered as constraint of the corresponding entity.
 * Comments can be made anywhere (except first line) in the input file beginning with "#" character in newline.
