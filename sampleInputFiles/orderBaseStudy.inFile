@@ -1,0 +1,1048 @@
+# NUMBER_OF_ENTITIES:121
+# SYSTEM_CONSTRAINTS_BEGIN
+
+(domain edge 0 1)
+
+(int M5_e6 edge)
+(int M5_e17 edge)
+(int M5_e14 edge)
+(int M5_e11 edge)
+(int M5_e21 edge)
+(int M5_e18 edge)
+(int M5_e34 edge)
+(int M5_e28 edge)
+(int M5_e33 edge)
+(int M5_e30 edge)
+(int M5_e23 edge)
+(int M5_e1 edge)
+(int M5_e29 edge)
+(int M5_e13 edge)
+(int M5_e3 edge)
+(int M5_e8 edge)
+(int M5_e22 edge)
+(int M5_e26 edge)
+(int M5_e36 edge)
+(int M5_e24 edge)
+(int M5_e2 edge)
+(int M5_e15 edge)
+(int M5_e16 edge)
+(int M5_e12 edge)
+(int M5_e5 edge)
+(int M5_e20 edge)
+(int M5_e31 edge)
+(int M5_e27 edge)
+(int M5_e7 edge)
+(int M5_e4 edge)
+(int M5_e32 edge)
+(int M5_e35 edge)
+(int M5_e25 edge)
+(int M5_e19 edge)
+(int M5_e10 edge)
+(int M5_e9 edge)
+
+
+(= (+ M5_e1 M5_e2 M5_e3 M5_e4)  1)
+
+(= M5_e36  1)
+
+(= M5_e1 M5_e21)
+(= M5_e2 M5_e18)
+(= M5_e3 M5_e25)
+(= M5_e4 M5_e20)
+(= M5_e6 (+ M5_e7 M5_e8))
+(= M5_e9 M5_e10)
+(= M5_e15 M5_e16)
+(= (+ M5_e18 M5_e19) (+ M5_e13 M5_e14))
+(= M5_e25 (+ M5_e26 M5_e27))
+(= M5_e28 M5_e29)
+(= M5_e7 M5_e9)
+(= (+ M5_e10 M5_e8) M5_e34)
+(= (+ M5_e13 M5_e16) M5_e5)
+(= M5_e14 M5_e15)
+(= M5_e26 M5_e28)
+(= (+ M5_e27 M5_e29) M5_e24)
+(= (+ M5_e20 M5_e24) (+ M5_e30 M5_e31 M5_e32 M5_e33))
+(= (+ M5_e23 M5_e34) (+ M5_e11 M5_e12))
+(= (+ M5_e11 M5_e30) M5_e19)
+(= (+ M5_e12 M5_e31) M5_e22)
+(= M5_e32 M5_e23)
+(= M5_e33 M5_e6)
+(= (+ M5_e21 M5_e22 M5_e5) M5_e17)
+(= M5_e17 M5_e35)
+(= M5_e35 M5_e36)
+
+# SYSTEM_CONSTRAINTS_END
+
+# Between SYSTEM_CONSTRAINTS tags
+# We give the parameters, their domains and system constraints 
+# Starting with "(int" lines defines a new parameter and its domain (e.g., P and D) 
+# In other cases, we define the system contraints (e.g, C)
+
+# ENTITY_BEGIN
+# ENTITY_ID:1
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S3 M5_S3_2
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:2
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S3 M5_S2
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e7  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:3
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S3 M5_S1_3
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:4
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S3 M5_S6
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:5
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S3 M5_S5
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:6
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S3 M5_S4_2
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e12 M5_e31)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:7
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S2 M5_S3_2
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e7  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:8
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S2 M5_S2_4
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e7  1)
+(= M5_e14  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:9
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S2 M5_S1_3
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e7  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:10
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S2 M5_S6
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e7  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:11
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S2 M5_S5
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e7  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:12
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S2 M5_S4
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e7  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:13
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S1_2 M5_S3_2
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e9  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:14
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S1_3 M5_S2_3
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e15  1)
+(= (+ M5_e13 M5_e16)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:15
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S1_2 M5_S1_3
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e9  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:16
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S1_3 M5_S6
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e15  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:17
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S1_3 M5_S5
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e15  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:18
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S1_2 M5_S4
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e9  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:19
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S5 M5_S6
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:20
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S4_4 M5_S3_2
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e33  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:21
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S4_4 M5_S2
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e33  1)
+(= M5_e7  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:22
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S4_4 M5_S1_3
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e33  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:23
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S4_2 M5_S6
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e12 M5_e31)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:24
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S4_2 M5_S5
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e12 M5_e31)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:25
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S2_6 M5_S4_4 M5_S4
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e33  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:26
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_5 M5_S3 M5_S3_2
+(= M5_e25  1)
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:27
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S3_2 M5_S2_4
+(= M5_e9  1)
+(= (+ M5_e23 M5_e34)  1)
+(= M5_e14  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:28
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S3_2 M5_S1_3
+(= M5_e9  1)
+(= (+ M5_e23 M5_e34)  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:29
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S3_2 M5_S6
+(= M5_e9  1)
+(= (+ M5_e23 M5_e34)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:30
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S3_2 M5_S5
+(= M5_e9  1)
+(= (+ M5_e23 M5_e34)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:31
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S3_2 M5_S4_2
+(= M5_e9  1)
+(= (+ M5_e23 M5_e34)  1)
+(= (+ M5_e12 M5_e31)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:32
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S2_2 M5_S3_2
+(= M5_e9  1)
+(= (+ M5_e10 M5_e8)  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:33
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S2_4 M5_S2_3
+(= M5_e9  1)
+(= M5_e14  1)
+(= (+ M5_e13 M5_e16)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:34
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S2_4 M5_S1_3
+(= M5_e9  1)
+(= M5_e14  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:35
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_3 M5_S2_3 M5_S6
+(= M5_e15  1)
+(= (+ M5_e13 M5_e16)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:36
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_3 M5_S2_3 M5_S5
+(= M5_e15  1)
+(= (+ M5_e13 M5_e16)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:37
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S2_2 M5_S4_2
+(= M5_e9  1)
+(= (+ M5_e10 M5_e8)  1)
+(= (+ M5_e12 M5_e31)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:38
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_5 M5_S1_2 M5_S3_2
+(= M5_e25  1)
+(= M5_e9  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:39
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S1_3 M5_S2_3
+(= M5_e9  1)
+(= M5_e15  1)
+(= (+ M5_e13 M5_e16)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:40
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S1_4 M5_S1_3
+(= M5_e9  1)
+(= (+ M5_e18 M5_e19)  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:41
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S1_3 M5_S6
+(= M5_e9  1)
+(= M5_e15  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:42
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S1_3 M5_S5
+(= M5_e9  1)
+(= M5_e15  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:43
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_5 M5_S1_2 M5_S4
+(= M5_e25  1)
+(= M5_e9  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:44
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_3 M5_S5 M5_S6
+(= M5_e15  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:45
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_5 M5_S4_4 M5_S3_2
+(= M5_e25  1)
+(= M5_e33  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:46
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S4 M5_S2_4
+(= M5_e9  1)
+(= (+ M5_e11 M5_e30)  1)
+(= M5_e14  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:47
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S4 M5_S1_3
+(= M5_e9  1)
+(= (+ M5_e11 M5_e30)  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:48
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S4 M5_S6
+(= M5_e9  1)
+(= (+ M5_e11 M5_e30)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:49
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_2 M5_S4 M5_S5
+(= M5_e9  1)
+(= (+ M5_e11 M5_e30)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:50
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S1_5 M5_S4_4 M5_S4
+(= M5_e25  1)
+(= M5_e33  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:51
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S3 M5_S3_2
+(= M5_e3  1)
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:52
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S3 M5_S2
+(= M5_e3  1)
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e7  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:53
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S3 M5_S1_3
+(= M5_e3  1)
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:54
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S3 M5_S6
+(= M5_e3  1)
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:55
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S3 M5_S5
+(= M5_e3  1)
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:56
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S3 M5_S4_2
+(= M5_e3  1)
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e12 M5_e31)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:57
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S2_6 M5_S3
+(= M5_e3  1)
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e20 M5_e24)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:58
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S2_6 M5_S2
+(= M5_e3  1)
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e7  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:59
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S2_6 M5_S1_3
+(= M5_e3  1)
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:60
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S2_6 M5_S6
+(= M5_e3  1)
+(= (+ M5_e27 M5_e29)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:61
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S2_6 M5_S5
+(= M5_e3  1)
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:62
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S2_6 M5_S4_2
+(= M5_e3  1)
+(= (+ M5_e27 M5_e29)  1)
+(= (+ M5_e12 M5_e31)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:63
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S1_2 M5_S3_2
+(= M5_e3  1)
+(= M5_e9  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:64
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S1_3 M5_S2_3
+(= M5_e3  1)
+(= M5_e15  1)
+(= (+ M5_e13 M5_e16)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:65
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S1_2 M5_S1_3
+(= M5_e3  1)
+(= M5_e9  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:66
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S1_3 M5_S6
+(= M5_e3  1)
+(= M5_e15  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:67
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S1_3 M5_S5
+(= M5_e3  1)
+(= M5_e15  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:68
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S1_2 M5_S4
+(= M5_e3  1)
+(= M5_e9  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:69
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S5 M5_S6
+(= M5_e3  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:70
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S4_4 M5_S3_2
+(= M5_e3  1)
+(= M5_e33  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:71
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S4 M5_S2_4
+(= M5_e3  1)
+(= (+ M5_e11 M5_e30)  1)
+(= M5_e14  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:72
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S4 M5_S1_3
+(= M5_e3  1)
+(= (+ M5_e11 M5_e30)  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:73
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S4 M5_S6
+(= M5_e3  1)
+(= (+ M5_e11 M5_e30)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:74
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S4 M5_S5
+(= M5_e3  1)
+(= (+ M5_e11 M5_e30)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:75
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S0_3 M5_S4_4 M5_S4
+(= M5_e3  1)
+(= M5_e33  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:76
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S3_2 M5_S2_4
+(= M5_e33  1)
+(= (+ M5_e23 M5_e34)  1)
+(= M5_e14  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:77
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S3_2 M5_S1_3
+(= M5_e33  1)
+(= (+ M5_e23 M5_e34)  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:78
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S3_2 M5_S6
+(= M5_e33  1)
+(= (+ M5_e23 M5_e34)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:79
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S3_2 M5_S5
+(= M5_e33  1)
+(= (+ M5_e23 M5_e34)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:80
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S3_2 M5_S4_2
+(= M5_e33  1)
+(= (+ M5_e23 M5_e34)  1)
+(= (+ M5_e12 M5_e31)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:81
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S2 M5_S3_2
+(= M5_e33  1)
+(= M5_e7  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:82
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S2 M5_S2_4
+(= M5_e33  1)
+(= M5_e7  1)
+(= M5_e14  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:83
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S2 M5_S1_3
+(= M5_e33  1)
+(= M5_e7  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:84
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S2 M5_S6
+(= M5_e33  1)
+(= M5_e7  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:85
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S2 M5_S5
+(= M5_e33  1)
+(= M5_e7  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:86
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S2 M5_S4
+(= M5_e33  1)
+(= M5_e7  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:87
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S1_2 M5_S3_2
+(= M5_e33  1)
+(= M5_e9  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:88
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S1_3 M5_S2_3
+(= M5_e33  1)
+(= M5_e15  1)
+(= (+ M5_e13 M5_e16)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:89
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S1_2 M5_S1_3
+(= M5_e33  1)
+(= M5_e9  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:90
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S1_3 M5_S6
+(= M5_e33  1)
+(= M5_e15  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:91
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S1_3 M5_S5
+(= M5_e33  1)
+(= M5_e15  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:92
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S1_2 M5_S4
+(= M5_e33  1)
+(= M5_e9  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:93
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S5 M5_S6
+(= M5_e33  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:94
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S4 M5_S2_4
+(= M5_e33  1)
+(= (+ M5_e11 M5_e30)  1)
+(= M5_e14  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:95
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S4 M5_S1_3
+(= M5_e33  1)
+(= (+ M5_e11 M5_e30)  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:96
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S4 M5_S6
+(= M5_e33  1)
+(= (+ M5_e11 M5_e30)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:97
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S4_4 M5_S4 M5_S5
+(= M5_e33  1)
+(= (+ M5_e11 M5_e30)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:98
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S3_2 M5_S2_4
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e23 M5_e34)  1)
+(= M5_e14  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:99
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S3_2 M5_S1_3
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e23 M5_e34)  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:100
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S3_2 M5_S6
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e23 M5_e34)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:101
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S3_2 M5_S5
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e23 M5_e34)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:102
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S3_2 M5_S4_2
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e23 M5_e34)  1)
+(= (+ M5_e12 M5_e31)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:103
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S2 M5_S3_2
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e7  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:104
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S2 M5_S2_4
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e7  1)
+(= M5_e14  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:105
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S2 M5_S1_3
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e7  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:106
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S2 M5_S6
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e7  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:107
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S2 M5_S5
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e7  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:108
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S2 M5_S4
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e7  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:109
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S1_2 M5_S3_2
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e9  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:110
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S1_3 M5_S2_3
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e15  1)
+(= (+ M5_e13 M5_e16)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:111
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S1_2 M5_S1_3
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e9  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:112
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S1_3 M5_S6
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e15  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:113
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S1_3 M5_S5
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e15  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:114
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S1_2 M5_S4
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e9  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:115
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S5 M5_S6
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:116
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S4_4 M5_S3_2
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e33  1)
+(= (+ M5_e23 M5_e34)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:117
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S4_4 M5_S2
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e33  1)
+(= M5_e7  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:118
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S4_4 M5_S1_3
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e33  1)
+(= M5_e15  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:119
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S4_2 M5_S6
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e12 M5_e31)  1)
+(= M5_e17  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:120
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S4_2 M5_S5
+(= (+ M5_e20 M5_e24)  1)
+(= (+ M5_e12 M5_e31)  1)
+(= (+ M5_e21 M5_e22 M5_e5)  1)
+# ENTITY_END
+
+# ENTITY_BEGIN
+# ENTITY_ID:121
+# ENTITY_DESCRIPTION:Entity to cover in 'any' manner:  M5_S3 M5_S4_4 M5_S4
+(= (+ M5_e20 M5_e24)  1)
+(= M5_e33  1)
+(= (+ M5_e11 M5_e30)  1)
+# ENTITY_END
+
