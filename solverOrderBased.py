@@ -1,6 +1,6 @@
 from os import popen
 
-SUGAR_CMD = "/home/hanefimercan/sugar/bin/sugar"
+SUGAR_CMD = "sugar"
 
 def _solve(systemConstraints, entityConstraints):
     outFile = open("temp.csp", "w")
