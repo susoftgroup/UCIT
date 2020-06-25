@@ -25,6 +25,17 @@ Example run:
 
 We have tested the tool on both Ubuntu 17.10 and 18.04. However, it should be fine in any Debian based linux distrubition machine. 
 
+**Development**
+
+Build the tool by typing 
+```bash
+docker build --tag ucit .
+```
+
+Run the tool by typing 
+```bash 
+docker run --rm -i -t ucit -m 1 -s solverUsageBased -i ./sampleInputFiles/usageBasedStudy.inFile
+```
 
 **Input File Format**
 
