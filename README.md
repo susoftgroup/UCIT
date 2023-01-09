@@ -1,7 +1,7 @@
 # F-CIT
 **Flexible Combinatorial Interaction Testing**
 
-We described the **F-CIT** tool in the paper **Flexible Combinatorial Interaction Testing (F-CIT)** which aims to improve the flexibility of combinatorial interaction testing (CIT) approaches. The paper is currently under review, thus, we cannot give more detail about it.
+We described the **F-CIT** tool in the paper **Flexible Combinatorial Interaction Testing (F-CIT)** which aims to improve the flexibility of combinatorial interaction testing (CIT) approaches.
 
 **How to build**
 * Currently we are not releasing the source of the core implementation itself. However, the core is released as shared library (ucit.so).
